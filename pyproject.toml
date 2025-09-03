@@ -1,0 +1,11 @@
+[project]
+name = "shopeeph-replay-downloader"
+version = "0.1.0"
+description = "shopee ph livestream replay downloader"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ffmpeg-python==0.2.0",
+    "requests==2.26.0",
+    "tqdm==4.62.3",
+]
